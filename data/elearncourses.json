@@ -1,0 +1,1548 @@
+{
+  "departments": [
+    {
+      "id": "dept01",
+      "name": "Computer Science",
+      "courses": [
+        {
+          "id": "course01",
+          "title": "Introduction to Programming",
+          "lecturer": "Dr. Alice Johnson",
+          "image": "/src/assets/ictguy.jpeg",
+          "video": "/src/assets/courseVideo2.mp4",
+          "description": "Learn the fundamentals of programming using Python. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, repellendus animi! Libero autem laboriosam mollitia. Distinctio, suscipit molestias rem sunt eos cupiditate illo omnis, error ad, repellat aperiam accusamus iste? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, repellendus animi! Libero autem laboriosam mollitia. Distinctio, suscipit molestias rem sunt eos cupiditate illo omnis, error ad, repellat aperiam accusamus iste?",
+          "reviews": [
+            {
+              "user": "Student A",
+              "image": "/src/assets/user.jpeg",
+              "rating": 5,
+              "comment": "Excellent course for beginners!"
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user2.jpeg",
+              "rating": 4,
+              "comment": "Good content, but needs more examples."
+            },
+            {
+              "user": "Student C",
+              "image": "/src/assets/user3.jpeg",
+              "rating": 3,
+              "comment": "This course is actually good only for beginners. I thought it was a more general course"
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user4.jpeg",
+              "rating": 0,
+              "comment": "Good content, but needs more examples."
+            }
+          ],
+          "discussions": [
+            {
+              "user": "Student A",
+              "image": "/src/assets/user.jpeg",
+              "comment": "What is the best way to start coding? I find that there are many different ways to start coding."
+            },
+            {
+              "user": "Student C",
+              "image": "/src/assets/user4.jpeg",
+              "comment": "Can we get additional resources? It's really important for students to have a great understanding of programming."
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user3.jpeg",
+              "comment": "Definitely."
+            }
+          ],
+          "resources": [
+            {
+              "title": "Python Official Documentation",
+              "url": "https://docs.python.org/3/"
+            },
+            {
+              "title": "FreeCodeCamp",
+              "url": "https://www.freecodecamp.org/"
+            },
+            {
+              "title": "FreeCodeCamp",
+              "url": "https://www.udemy.com/"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Dr. Alice Johnson",
+              "bio": "Senior Lecturer in Computer Science with 10 years of experience.",
+              "image": "/src/assets/instructor1.jpeg"
+            },
+            {
+              "name": "Prof. Godwin Maduka",
+              "bio": "Lecturer in Computational Health Analysis with over 20 years of experience.",
+              "image": "/src/assets/instructor2.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "in progress"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        },
+        {
+          "id": "course02",
+          "title": "Data Structures and Algorithms",
+          "lecturer": "Dr. Bob Williams",
+          "image": "/src/assets/thermometer.jpeg",
+          "video": "/src/assets/courseVideo1.mp4",
+          "description": "Deep dive into efficient data structures and algorithms.",
+          "reviews": [
+            {
+              "user": "Student F",
+              "image": "/src/assets/user2.jpeg",
+              "rating": 5,
+              "comment": "A must-take for any serious programmer."
+            }
+          ],
+          "discussions": [],
+          "resources": [],
+          "instructors": [
+            {
+              "name": "Dr. Bob Williams",
+              "bio": "Professor of Computer Science with expertise in algorithms.",
+              "image": "/src/assets/instructor1.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Introduction to Data Structures",
+              "status": "completed"
+            },
+            {
+              "title": "Sorting and Searching",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dept02",
+      "name": "Business Administration",
+      "courses": [
+        {
+          "id": "course01",
+          "title": "Introduction to Marketing",
+          "lecturer": "Prof. John Smith",
+          "image": "/src/assets/managers.jpeg",
+          "video": "/src/assets/courseVideo2.mp4",
+          "description": "Explore the basics of marketing and advertising.",
+          "reviews": [
+            {
+              "user": "Student D",
+              "image": "/src/assets/user4.jpeg",
+              "rating": 5,
+              "comment": "Very informative and engaging!"
+            }
+          ],
+          "discussions": [
+            {
+              "user": "Student D",
+              "image": "/src/assets/user2.jpeg",
+              "comment": "How do I apply marketing principles in real life?"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Marketing 101",
+              "url": "https://www.marketing101.com/"
+            },
+            {
+              "title": "Introduction to Marketing",
+              "url": "https://www.udemy.com/"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Prof. John Smith",
+              "bio": "Expert in Marketing with over 15 years of experience.",
+              "image": "/src/assets/instructor2.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Understanding Marketing",
+              "status": "completed"
+            },
+            {
+              "title": "Market Research",
+              "status": "in progress"
+            },
+            {
+              "title": "Advertising Strategies",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        },
+        {
+          "id": "course02",
+          "title": "Financial Accounting",
+          "lecturer": "Dr. Sarah Lee",
+          "image": "/src/assets/thermometer.jpeg",
+          "video": "/src/assets/courseVideo1.mp4",
+          "description": "Master the principles of financial accounting. Learn the fundamentals of programming using Python. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, repellendus animi! Libero autem laboriosam mollitia. Distinctio, suscipit molestias rem sunt eos cupiditate illo omnis, error ad, repellat aperiam accusamus iste? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, repellendus animi! Libero autem laboriosam mollitia. Distinctio, suscipit molestias rem sunt eos cupiditate illo omnis, error ad, repellat aperiam accusamus iste?",
+          "reviews": [
+            {
+              "user": "Student A",
+              "image": "/src/assets/user3.jpeg",
+              "rating": 5,
+              "comment": "Excellent course for beginners!"
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user.jpeg",
+              "rating": 4,
+              "comment": "Good content, but needs more examples."
+            },
+            {
+              "user": "Student C",
+              "image": "/src/assets/user.jpeg",
+              "rating": 3,
+              "comment": "This course is actually good only for beginners. I thought it was a more general course"
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user2.jpeg",
+              "rating": 0,
+              "comment": "Good content, but needs more examples."
+            }
+          ],
+          "discussions": [
+            {
+              "user": "Student A",
+              "image": "/src/assets/user4.jpeg",
+              "comment": "What is the best way to start coding? I find that there are many different ways to start coding."
+            },
+            {
+              "user": "Student C",
+              "image": "/src/assets/user2.jpeg",
+              "comment": "Can we get additional resources? It's really important for students to have a great understanding of programming."
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user.jpeg",
+              "comment": "Definitely."
+            }
+          ],
+          "resources": [],
+          "instructors": [
+            {
+              "name": "Dr. Sarah Lee",
+              "bio": "Associate Professor in Business with a focus on finance.",
+              "image": "/src/assets/instructor2.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Introduction to Financial Statements",
+              "status": "completed"
+            },
+            {
+              "title": "Balance Sheets",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dept03",
+      "name": "Psychology",
+      "courses": [
+        {
+          "id": "course01",
+          "title": "Introduction to Psychology",
+          "lecturer": "Dr. Mike Pearson",
+          "image": "/src/assets/geoMap.jpeg",
+          "video": "/src/assets/courseVideo1.mp4",
+          "description": "An overview of the field of psychology. lorem ipsum dolor sit amet inter dolor in diam nonumy temp ullamcorper vel felis vel augue vel augue vel augue vel augue vel augue vel augue vel augue vel augue vel augue vel augue vel",
+          "reviews": [
+            {
+              "user": "Student H",
+              "image": "/src/assets/user.jpeg",
+              "rating": 5,
+              "comment": "Excellent introduction to psychology."
+            }
+          ],
+          "discussions": [],
+          "resources": [
+            {
+              "title": "Python Official Documentation",
+              "url": "https://docs.python.org/3/"
+            },
+            {
+              "title": "FreeCodeCamp",
+              "url": "https://www.freecodecamp.org/"
+            },
+            {
+              "title": "FreeCodeCamp",
+              "url": "https://www.udemy.com/"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Dr. Alice Johnson",
+              "bio": "Senior Lecturer in Computer Science with 10 years of experience.",
+              "image": "/src/assets/instructor1.jpeg"
+            },
+            {
+              "name": "Prof. Godwin Maduka",
+              "bio": "Lecturer in Computational Health Analysis with over 20 years of experience.",
+              "image": "/src/assets/instructor2.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "History of Psychology",
+              "status": "completed"
+            },
+            {
+              "title": "Behavioral Theories",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        },
+        {
+          "id": "course02",
+          "title": "Social Psychology",
+          "lecturer": "Prof. Laura Green",
+          "image": "/src/assets/thermometer.jpeg",
+          "video": "/src/assets/courseVideo2.mp4",
+          "description": "Explore how social influences affect behavior.",
+          "reviews": [
+            {
+              "user": "Student I",
+              "image": "/src/assets/user3.jpeg",
+              "rating": 5,
+              "comment": "Interesting topics and insightful discussions."
+            }
+          ],
+          "discussions": [],
+          "resources": [],
+          "instructors": [
+            {
+              "name": "Prof. Laura Green",
+              "bio": "Social psychologist with 20 years of experience.",
+              "image": "/src/assets/instructor3.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Introduction to Social Influence",
+              "status": "completed"
+            },
+            {
+              "title": "Group Dynamics",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "completed"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dept04",
+      "name": "Electrical Engineering",
+      "courses": [
+        {
+          "id": "course01",
+          "title": "Introduction to Circuit Analysis",
+          "lecturer": "Dr. David Clark",
+          "image": "/src/assets/circuitsAfrica.jpeg",
+          "video": "/src/assets/courseVideo1.mp4",
+          "description": "Learn the basics of electric circuits and systems.",
+          "reviews": [
+            {
+              "user": "Student J",
+              "image": "/src/assets/user4.jpeg",
+              "rating": 4,
+              "comment": "Challenging but rewarding."
+            }
+          ],
+          "discussions": [],
+          "resources": [],
+          "instructors": [
+            {
+              "name": "Dr. David Clark",
+              "bio": "Electrical Engineer with over 15 years of teaching experience.",
+              "image": "/src/assets/instructor4.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Ohm's Law and Basic Concepts",
+              "status": "completed"
+            },
+            {
+              "title": "AC Circuits",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        },
+        {
+          "id": "course02",
+          "title": "Digital Signal Processing",
+          "lecturer": "Prof. Susan Baker",
+          "image": "/src/assets/thermometer.jpeg",
+          "video": "/src/assets/courseVideo2.mp4",
+          "description": "Learn about digital signals and their applications.",
+          "reviews": [],
+          "discussions": [],
+          "resources": [],
+          "instructors": [
+            {
+              "name": "Prof. Susan Baker",
+              "bio": "Expert in Digital Signal Processing.",
+              "image": "/src/assets/instructor4.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Introduction to DSP",
+              "status": "completed"
+            },
+            {
+              "title": "Filters and Transforms",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dept05",
+      "name": "Computer Engineering",
+      "courses": [
+        {
+          "id": "course01",
+          "title": "Introduction to Programmin 2",
+          "lecturer": "Dr. Alice Johnson",
+          "image": "/src/assets/chemicals.jpeg",
+          "video": "/src/assets/courseVideo2.mp4",
+          "description": "Learn the fundamentals of programming using Python.",
+          "reviews": [
+            {
+              "user": "Student A",
+              "image": "/src/assets/user3.jpeg",
+              "rating": 5,
+              "comment": "Excellent course for beginners!"
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user.jpeg",
+              "rating": 4,
+              "comment": "Good content, but needs more examples."
+            }
+          ],
+          "discussions": [
+            {
+              "user": "Student A",
+              "image": "/src/assets/user.jpeg",
+              "comment": "What is the best way to start coding?"
+            },
+            {
+              "user": "Student C",
+              "image": "/src/assets/user3.jpeg",
+              "comment": "Can we get additional resources?"
+            }
+          ],
+          "resources": [
+            {
+              "title": "Python Official Documentation",
+              "url": "https://docs.python.org/3/"
+            },
+            {
+              "title": "FreeCodeCamp",
+              "url": "https://www.freecodecamp.org/"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Dr. Alice Johnson",
+              "bio": "Senior Lecturer in Computer Science with 10 years of experience.",
+              "image": "/src/assets/instructor5.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "in progress"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        },
+        {
+          "id": "course02",
+          "title": "Data Structures and Algorithms",
+          "lecturer": "Dr. Bob Williams",
+          "image": "/src/assets/thermometer.jpeg",
+          "video": "/src/assets/courseVideo1.mp4",
+          "description": "Deep dive into efficient data structures and algorithms.",
+          "reviews": [
+            {
+              "user": "Student F",
+              "image": "/src/assets/user.jpeg",
+              "rating": 5,
+              "comment": "A must-take for any serious programmer."
+            }
+          ],
+          "discussions": [],
+          "resources": [],
+          "instructors": [
+            {
+              "name": "Dr. Bob Williams",
+              "bio": "Professor of Computer Science with expertise in algorithms.",
+              "image": "/src/assets/instructor5.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Introduction to Data Structures",
+              "status": "completed"
+            },
+            {
+              "title": "Sorting and Searching",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dept06",
+      "name": "Business Management",
+      "courses": [
+        {
+          "id": "course01",
+          "title": "Introduction to Marketing 2",
+          "lecturer": "Prof. John Smith",
+          "image": "/src/assets/togetherness.jpeg",
+          "video": "/src/assets/courseVideo1.mp4",
+          "description": "Explore the basics of marketing and advertising. Master the principles of financial accounting. Learn the fundamentals of programming using Python. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, repellendus animi! Libero autem laboriosam mollitia. Distinctio, suscipit molestias rem sunt eos cupiditate illo omnis, error ad, repellat aperiam accusamus iste? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, repellendus animi! Libero autem laboriosam mollitia. Distinctio, suscipit molestias rem sunt eos cupiditate illo omnis, error ad, repellat aperiam accusamus iste?",
+          "reviews": [
+            {
+              "user": "Student A",
+              "image": "/src/assets/user.jpeg",
+              "rating": 5,
+              "comment": "Excellent course for beginners!"
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user3.jpeg",
+              "rating": 4,
+              "comment": "Good content, but needs more examples."
+            },
+            {
+              "user": "Student C",
+              "image": "/src/assets/user4.jpeg",
+              "rating": 3,
+              "comment": "This course is actually good only for beginners. I thought it was a more general course"
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user2.jpeg",
+              "rating": 0,
+              "comment": "Good content, but needs more examples."
+            }
+          ],
+          "discussions": [
+            {
+              "user": "Student A",
+              "image": "/src/assets/user.jpeg",
+              "comment": "What is the best way to start coding? I find that there are many different ways to start coding."
+            },
+            {
+              "user": "Student C",
+              "image": "/src/assets/user4.jpeg",
+              "comment": "Can we get additional resources? It's really important for students to have a great understanding of programming."
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user2.jpeg",
+              "comment": "Definitely."
+            }
+          ],
+          "resources": [
+            {
+              "title": "Marketing 101",
+              "url": "https://www.marketing101.com/"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Prof. John Smith",
+              "bio": "Expert in Marketing with over 15 years of experience.",
+              "image": "/src/assets/instructor1.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Understanding Marketing",
+              "status": "completed"
+            },
+            {
+              "title": "Market Research",
+              "status": "in progress"
+            },
+            {
+              "title": "Advertising Strategies",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "completed"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "completed"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        },
+        {
+          "id": "course02",
+          "title": "Financial Accounting",
+          "lecturer": "Dr. Sarah Lee",
+          "image": "/src/assets/thermometer.jpeg",
+          "video": "/src/assets/courseVideo2.mp4",
+          "description": "Master the principles of financial accounting.",
+          "reviews": [
+            {
+              "user": "Student G",
+              "image": "/src/assets/user4.jpeg",
+              "rating": 4,
+              "comment": "Great content, but the pace is too fast."
+            }
+          ],
+          "discussions": [],
+          "resources": [
+            {
+              "title": "Python Official Documentation",
+              "url": "https://docs.python.org/3/"
+            },
+            {
+              "title": "FreeCodeCamp",
+              "url": "https://www.freecodecamp.org/"
+            },
+            {
+              "title": "FreeCodeCamp",
+              "url": "https://www.udemy.com/"
+            }
+          ],
+          "instructors": [
+            {
+              "name": "Dr. Sarah Lee",
+              "bio": "Associate Professor in Business with a focus on finance.",
+              "image": "/src/assets/instructor1.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Introduction to Financial Statements",
+              "status": "completed"
+            },
+            {
+              "title": "Balance Sheets",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dept07",
+      "name": "Human Kinetics",
+      "courses": [
+        {
+          "id": "course01",
+          "title": "Introduction to Psychology 2",
+          "lecturer": "Dr. Mike Pearson",
+          "image": "/src/assets/globe.jpeg",
+          "video": "/src/assets/courseVideo2.mp4",
+          "description": "An overview of the field of psychology.",
+          "reviews": [
+            {
+              "user": "Student H",
+              "image": "/src/assets/user.jpeg",
+              "rating": 5,
+              "comment": "Excellent introduction to psychology."
+            }
+          ],
+          "discussions": [],
+          "resources": [],
+          "instructors": [
+            {
+              "name": "Dr. Mike Pearson",
+              "bio": "Expert in cognitive psychology.",
+              "image": "/src/assets/instructor2.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "History of Psychology",
+              "status": "completed"
+            },
+            {
+              "title": "Behavioral Theories",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        },
+        {
+          "id": "course02",
+          "title": "Social Psychology",
+          "lecturer": "Prof. Laura Green",
+          "image": "/src/assets/thermometer.jpeg",
+          "video": "/src/assets/courseVideo1.mp4",
+          "description": "Explore how social influences affect behavior.",
+          "reviews": [
+            {
+              "user": "Student I",
+              "image": "/src/assets/user2.jpeg",
+              "rating": 5,
+              "comment": "Interesting topics and insightful discussions."
+            }
+          ],
+          "discussions": [],
+          "resources": [],
+          "instructors": [
+            {
+              "name": "Prof. Laura Green",
+              "bio": "Social psychologist with 20 years of experience.",
+              "image": "/src/assets/instructor2.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Introduction to Social Influence",
+              "status": "completed"
+            },
+            {
+              "title": "Group Dynamics",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dept08",
+      "name": "Electrical & Electronics Engineering",
+      "courses": [
+        {
+          "id": "course01",
+          "title": "Introduction to Circuit Analysis 2",
+          "lecturer": "Dr. David Clark",
+          "image": "/src/assets/thermometer.jpeg",
+          "video": "/src/assets/courseVideo1.mp4",
+          "description": "Learn the basics of electric circuits and systems.",
+          "reviews": [
+            {
+              "user": "Student J",
+              "image": "/src/assets/user.jpeg",
+              "rating": 4,
+              "comment": "Challenging but rewarding."
+            }
+          ],
+          "discussions": [],
+          "resources": [],
+          "instructors": [
+            {
+              "name": "Dr. David Clark",
+              "bio": "Electrical Engineer with over 15 years of teaching experience.",
+              "image": "/src/assets/instructor3.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Ohm's Law and Basic Concepts",
+              "status": "completed"
+            },
+            {
+              "title": "AC Circuits",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        },
+        {
+          "id": "course02",
+          "title": "Digital Signal Processing",
+          "lecturer": "Prof. Susan Baker",
+          "image": "/src/assets/thermometer.jpeg",
+          "video": "/src/assets/courseVideo2.mp4",
+          "description": "Learn about digital signals and their applications. Explore the basics of marketing and advertising. Master the principles of financial accounting. Learn the fundamentals of programming using Python. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, repellendus animi! Libero autem laboriosam mollitia. Distinctio, suscipit molestias rem sunt eos cupiditate illo omnis, error ad, repellat aperiam accusamus iste? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, repellendus animi! Libero autem laboriosam mollitia. Distinctio, suscipit molestias rem sunt eos cupiditate illo omnis, error ad, repellat aperiam accusamus iste?",
+          "reviews": [
+            {
+              "user": "Student A",
+              "image": "/src/assets/user2.jpeg",
+              "rating": 5,
+              "comment": "Excellent course for beginners!"
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user.jpeg",
+              "rating": 4,
+              "comment": "Good content, but needs more examples."
+            },
+            {
+              "user": "Student C",
+              "image": "/src/assets/user.jpeg",
+              "rating": 3,
+              "comment": "This course is actually good only for beginners. I thought it was a more general course"
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user3.jpeg",
+              "rating": 0,
+              "comment": "Good content, but needs more examples."
+            }
+          ],
+          "discussions": [
+            {
+              "user": "Student A",
+              "image": "/src/assets/user.jpeg",
+              "comment": "What is the best way to start coding? I find that there are many different ways to start coding."
+            },
+            {
+              "user": "Student C",
+              "image": "/src/assets/user2.jpeg",
+              "comment": "Can we get additional resources? It's really important for students to have a great understanding of programming."
+            },
+            {
+              "user": "Student B",
+              "image": "/src/assets/user4.jpeg",
+              "comment": "Definitely."
+            }
+          ],
+          "resources": [],
+          "instructors": [
+            {
+              "name": "Prof. Susan Baker",
+              "bio": "Expert in Digital Signal Processing.",
+              "image": "/src/assets/instructor3.jpeg"
+            }
+          ],
+          "chapters": [
+            {
+              "title": "Introduction to DSP",
+              "status": "completed"
+            },
+            {
+              "title": "Filters and Transforms",
+              "status": "in progress"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "completed"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "completed"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "locked"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            },
+            {
+              "title": "Getting Started",
+              "status": "completed"
+            },
+            {
+              "title": "Data Types and Variables",
+              "status": "locked"
+            },
+            {
+              "title": "Control Structures",
+              "status": "locked"
+            }
+          ]
+        }
+      ]
+    }   
+  ]
+}
