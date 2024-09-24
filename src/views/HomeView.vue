@@ -4,7 +4,7 @@
     <section class="flex flex-col items-center justify-center gap-6 w-full">
       <p class="page"><span class="text-2xl text-[#0f61ff] font-semibold uppercase">E-Learnr</span></p>
       <div class="video flex justify-center items-center relative">
-        <img src="/src/assets/homeImageAfricaaned.jpeg" alt="African Technology Network Photo" class="w-full h-auto max-h-72 rounded-md object-cover">
+        <img src="/images/homeImageAfricaaned.jpeg" alt="African Technology Network Photo" class="w-full h-auto max-h-72 rounded-md object-cover">
       </div>
       <h1 class="text-xl md:text-3xl text-center">Welcome To E-Learnr Network</h1>
       <div>
