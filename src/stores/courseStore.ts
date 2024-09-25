@@ -37,7 +37,7 @@ export const useCourseStore = defineStore('courses', {
 
         // Fallback to raw JSON file in the root of the project (the main purpose of this fallback is the live link)
         try {
-          const fallbackRes = await axios.get('/elearncourses.json');
+          const fallbackRes = await axios.get(`${import.meta.env.VITE_API_BASE_URL_LIVE}/elearncourses.json`);
 
           if (fallbackRes.status === 200 && Array.isArray(fallbackRes.data)) {
             this.departments = fallbackRes.data;
@@ -82,7 +82,7 @@ export const useCourseStore = defineStore('courses', {
 
         // Fallback to raw JSON file in project root (the main purpose of this fallback is the live link)
         try {
-          const fallbackRes = await axios.get('/elearncourses.json');
+          const fallbackRes = await axios.get(`${import.meta.env.VITE_API_BASE_URL_LIVE}/elearncourses.json`);
           const departments = fallbackRes.data as Department[];
 
           const department = departments.find(dept => dept.id === id);
