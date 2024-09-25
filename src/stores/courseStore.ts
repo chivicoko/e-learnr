@@ -71,7 +71,7 @@ export const useCourseStore = defineStore('courses', {
           const existingDepartment = this.getDepartmentById(id);
           if (!existingDepartment) {
             this.departments.push(department);
-          }
+          } 
 
           return department;
         } else {
