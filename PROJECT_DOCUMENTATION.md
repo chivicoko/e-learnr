@@ -167,8 +167,6 @@
     ```
     This will serve the json data provided at ./data/elearncourses.json as the mock data for json-server
 
-    `This same data is provided at public/elearncourses.json as a back-up for the live link`
-
   3. The mock API will be available at `http://localhost:3001`, providing endpoints such as:
     - `/departments`: Retrieves all departments and their courses.
     - `/departments/{id}`: Fetches a specific department by its ID.
@@ -253,7 +251,7 @@
   ### 2. Run the json-server:
 
   ```bash
-  json-server --watch elearncourses.json --port 3001
+  json-server --watch ./data/elearncourses.json --port 3001
   ```
 
   ### 3. Serve the Vue.js project:
