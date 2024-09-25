@@ -60,7 +60,8 @@
 
   onMounted(async () => {
     const departmentId = route.params.departmentId as string;
-    const fetchedDepartment = await courseStore.getDepartmentByIdAction(departmentId);
+    // const fetchedDepartment = await courseStore.getDepartmentByIdAction(departmentId);
+    const fetchedDepartment = courseStore.getDepartmentById(departmentId);
     department.value = fetchedDepartment || null;
     departmentName.value = fetchedDepartment?.name || '';
   });
