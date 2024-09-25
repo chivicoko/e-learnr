@@ -58,13 +58,27 @@
   const department = ref<Department | null | undefined>(undefined);
   const departmentName = ref<string>('');
 
-  onMounted(async () => {
+  // onMounted(async () => {
+  //   const departmentId = route.params.departmentId as string;
+  //   const fetchedDepartment = await courseStore.getDepartmentByIdAction(departmentId);
+    
+  //   department.value = fetchedDepartment? > 0 ? fetchedDepartment : courseStore.getDepartmentById(departmentId) || null;
+  //   departmentName.value = fetchedDepartment?.name || '';
+  // });
+
+    onMounted(async () => {
     const departmentId = route.params.departmentId as string;
-    // const fetchedDepartment = await courseStore.getDepartmentByIdAction(departmentId);
-    const fetchedDepartment = courseStore.getDepartmentById(departmentId);
-    department.value = fetchedDepartment || null;
+    
+    // Fetch the department asynchronously
+    const fetchedDepartment = await courseStore.getDepartmentByIdAction(departmentId);
+    
+    // Check if the fetched department is valid (not null or undefined)
+    department.value = fetchedDepartment ? fetchedDepartment : courseStore.getDepartmentById(departmentId) || null;
+    
+    // Set departmentName, ensuring fallback to empty string
     departmentName.value = fetchedDepartment?.name || '';
   });
+
 
   // Image fallback function if the course image fails to load
   const onImageError = (event: Event) => {
